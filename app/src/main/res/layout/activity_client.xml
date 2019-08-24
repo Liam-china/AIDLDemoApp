@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/bind_service_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind Service"/>
+
+    <Button
+        android:id="@+id/unbind_service_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unbind Service"/>
+
+    <Button
+        android:id="@+id/remote_sync_call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync Call"/>
+
+    <Button
+        android:id="@+id/remote_async_call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Async Call"/>
+
+    <Button
+        android:id="@+id/send_parcelable_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Custom Parcelable"/>
+
+    <Button
+        android:id="@+id/send_big_data_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Big Data"/>
+
+    <Button
+        android:id="@+id/send_basic_types_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Basic Types"/>
+
+    <Button
+        android:id="@+id/send_complex_types_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Complex Types"/>
+
+    <Button
+        android:id="@+id/throw_exception_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Throw Exception"/>
+
+</LinearLayout>

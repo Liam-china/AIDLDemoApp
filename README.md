@@ -1,0 +1,2 @@
+# AIDLDemoApp
+主要是演示AndroidApp开发中AIDL的使用及注意的点
